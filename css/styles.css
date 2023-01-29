@@ -1,0 +1,79 @@
+.main_name{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.main_name span{
+	font-weight: 100;
+	color: #c7c7c7;
+}
+
+.main_profession{
+	font-size: 20px;
+	color: #c7c7c7;
+	margin-top: 10px;
+	padding-bottom: 25px;
+}
+.nav-item{
+	text-align: center;
+}
+
+.sidebar-item1{
+	align-self: center;
+}
+
+.nav-item1{
+	border: solid;
+	border-radius: 25px;
+	width: 10rem;
+	padding-top: 0.3rem;
+	margin-bottom: 0.3rem; 
+}
+/*.pito{
+	display: grid;
+	padding: 0.2em 0.2em; */
+
+.class_nav{
+	border-radius: 25px;
+}
+
+.cv-texto, .main_name, .main_profession{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar-texto{
+	font-family: 'Roboto', sans-serif;	
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.btn-scrolltop{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 12px;
+	background: gray;
+	color: white;
+	border: 1px solid white;
+	border-radius: 100%;
+	cursor: pointer;
+	transform: translateY(100px);
+	transition: 0.3s;
+}
+
+.btn-scrolltop-on{
+	transform: translateY(0);
+}
