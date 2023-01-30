@@ -54,12 +54,19 @@ a:link, a:visited{
 	color: black;
 }
 
-.text-hide{
-	display: none;
+.text-hidden{
+	overflow: hidden;
+	/*display: none;*/
+	height: 0rem;
+	transition: height 0.2s;
+
 }
 
 .text-show{
 	display: block;
+	height: 4.5rem;
+	transition: height 0.2s;
+
 }
 
 .btn-scrolltop{
