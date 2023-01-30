@@ -16,6 +16,11 @@
 	margin-top: 10px;
 	padding-bottom: 25px;
 }
+.btn_readMore{
+	border-radius: 10%;
+	border: 2px solid;
+}
+
 .nav-item{
 	text-align: center;
 }
@@ -31,9 +36,6 @@
 	padding-top: 0.3rem;
 	margin-bottom: 0.3rem; 
 }
-/*.pito{
-	display: grid;
-	padding: 0.2em 0.2em; */
 
 .class_nav{
 	border-radius: 25px;
