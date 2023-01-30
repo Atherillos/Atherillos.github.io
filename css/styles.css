@@ -25,11 +25,11 @@
 	text-align: center;
 }
 
-.sidebar-item1{
+.sidebar-item{
 	align-self: center;
 }
 
-.nav-item1{
+.nav-items{
 	border: solid;
 	border-radius: 25px;
 	width: 10rem;
@@ -54,11 +54,11 @@ a:link, a:visited{
 	color: black;
 }
 
-.hide{
+.text-hide{
 	display: none;
 }
 
-.show{
+.text-show{
 	display: block;
 }
 

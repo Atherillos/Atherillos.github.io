@@ -1,13 +1,13 @@
 
-// Función leer mas
+// Función botón leer mas
 let hideText_btn = document.getElementById('hideText_btn');
 let hideText = document.getElementById('hideText');
 
 hideText_btn.addEventListener('click',toggleText);
 
 function toggleText(){
-	hideText.classList.toggle('show');
-	if (hideText.classList.contains('show')) {
+	hideText.classList.toggle('text-show');
+	if (hideText.classList.contains('text-show')) {
 		br_activo.innerHTML='<br>';
 		hideText_btn.innerHTML = 'Ver menos';
 	}
