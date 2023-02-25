@@ -2,10 +2,8 @@ body, html {
     height: 100%;
 }
 
-
-
-/*pantalla grande*/
-@media only screen and (min-width: 1025px){
+/*Pantalla grande*/
+@media only screen and (max-width: 1200px){
 
 	.hero-image{
 		background-color: black;
@@ -31,7 +29,7 @@ body, html {
 
 }
 
-/*pantalla mediana*/
+/*Pantalla mediana*/
 @media only screen and (max-width: 1024px) {
 
 	.hero-image{
@@ -57,7 +55,7 @@ body, html {
 	}
 
 }
-/*pantalla tablet*/
+/*Pantalla tablet*/
 @media only screen and (max-width: 768px) {
 
 	.hero-image{
@@ -84,7 +82,7 @@ body, html {
 
 }
 
-/*pantalla movil*/
+/*Pantalla movil*/
 @media only screen and (max-width: 480px) {
 
 	.hero-image{
@@ -162,7 +160,6 @@ a:link, a:visited{
 
 .text-hidden{
 	overflow: hidden;
-	/*display: none;*/
 	height: 0rem;
 	transition: height 0.2s;
 
