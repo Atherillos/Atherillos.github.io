@@ -3,7 +3,7 @@ body, html {
 }
 
 /*Pantalla grande*/
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1025px){
 
 	.hero-image{
 		background-color: black;
